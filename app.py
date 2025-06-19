@@ -9,7 +9,7 @@ load_dotenv()
 
 # bot config
 NOTIFIER_TOKEN = os.getenv("NOTIFIER_TOKEN")
-NOTIFIER_CHAT_ID = os.getenv("APPROVAL_CHAT_ID")
+NOTIFIER_CHAT_ID = os.getenv("NOTIFIER_CHAT_ID")
 APPROVAL_TOKEN = os.getenv("APPROVAL_TOKEN")
 APPROVER_CHAT_ID = os.getenv("APPROVAL_CHAT_ID")
 
